@@ -115,4 +115,108 @@ a {
   outline: none;
   width: 150px;
   font-size: 15px;
+  color: white;
+}
+::placeholder{
+  color:white 
+}
+
+.navbar .rightNav .inputBox:focus-within {
+  border: 1px solid #4daafc; 
+}
+
+.navbar .rightNav button {
+  color: #e9eaeb;
+  font-weight: 600;
+  background-color: #0060b9;
+  padding : 8px 16px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.navbar .rightNav button:hover {
+  background-color: #005da3;
+}
+.navbar .rightNav button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #4daafc; 
+}
+
+.version {
+  margin-top: 80px;
+  text-align: center;
+  color: #c5c5c5;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 50px;
+}
+
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  padding: 60px 5% 100px 5%;
+  border-bottom: 0.5px solid rgb(74, 73, 73);
+  background:linear-gradient(to bottom, #0e0e0e, #151515);
+}
+.section1 .leftSection1 {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section1 .leftSection1 div {
+  border: 0.1px solid rgb(36, 36, 36);
+  padding: 8px 15px;
+  border-radius: 20px;
+  color: white;
+  opacity: 0.7;
+  background-color: #242424;
+}
+
+.section1 .leftSection1 h2 {
+  font-size: 50px;
+  font-weight: 600;
+  color: rgb(240, 240, 240);
+}
+
+.section1 .leftSection1 button {
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0069b9;
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.section1 .leftSection1 button:hover {
+  background-color: #005da3;
+}
+
+.section1 .leftSection1 span {
+  color: rgb(144, 143, 143);
+}
+
+.section1 .leftSection1 span + span {
+  font-size: 12px;
+}
+
+.section1 .rightSection1{
+  width: 60%;
+}
+
+.section1 .rightSection1 img {
+  width: 100%;
 }

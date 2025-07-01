@@ -1,0 +1,118 @@
+/* General resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  background-color: #0e0e0e;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+/* Link styling */
+a {
+  color: #4daafc;
+  font-weight: 600;
+}
+.navbar{
+  height: 60px;
+  margin: 0 auto;
+  padding: 0px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0; 
+  z-index: 9;
+  border-bottom: 0.5px solid rgb(74, 73, 73);
+  background-color: #0e0e0e;
+
+}
+.navbar .leftNav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+
+}
+
+.navbar .leftNav .logo{
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #e9eaeb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+.navbar .leftNav .logo img{
+  width: 26px;
+  height: 26px;
+}
+.navbar .leftNav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+
+.navbar .leftNav ul li a {
+  text-decoration: none;
+  color: #9ba3b4;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.navbar .leftNav ul li a:hover {
+  color: #e9eaeb;
+}
+
+.navbar .rightNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar .rightNav .lightMode {
+  cursor: pointer;
+}
+
+.navbar .rightNav .lightMode :hover {
+  background-color: rgb(44, 44, 44);
+  border-radius: 20%;
+}
+
+.navbar .rightNav .inputBox {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 0.1px solid #5a5a5b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  opacity: 0.6; 
+}
+
+.navbar .rightNav .inputBox i {
+  color: white;
+  cursor: pointer;
+}
+
+.navbar .rightNav .inputBox input {
+  background-color: #0e0e0e;
+  border: none;
+  outline: none;
+  width: 150px;
+  font-size: 15px;
+}
